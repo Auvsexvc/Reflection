@@ -5,7 +5,7 @@
     /// There is no return value, so you have to return the types over the list.
     /// If an object is null, so there is no type! So you do not have to set anything for null-Objects.
     /// </summary>
-    internal class Reflection_1___Pre_Reflection___Give_me_types
+    public class GiveMeTypes
     {
         public static void GetTypes(List<Tuple<object, Type>> objectTypes)
         {
